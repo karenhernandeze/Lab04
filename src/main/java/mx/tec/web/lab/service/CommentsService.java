@@ -42,6 +42,7 @@ public class CommentsService {
 
 	/**
 	 * No args constructor
+	 * @param endpoint endpoint string to the comments api
 	 */
 	public CommentsService(@Value("${commentsEndpoint}") String endpoint) {
 		this.endpoint = endpoint;
